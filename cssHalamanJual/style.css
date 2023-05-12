@@ -1,0 +1,222 @@
+/* Halaman jual */
+
+/* Body */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #eaeaea, #eaeaea, #00be4272);
+  /* background-color: rgba(245, 245, 245, 0.65); */
+}
+
+/* Wrapper */
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Bagian header */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  z-index: 9999;
+  /* background-color: rgba(245, 245, 245, 0.65); */
+  background-color: #eaeaea;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Animasi header */
+header.scrolled {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+/* Logo naru */
+.logo-naru {
+  margin-right: auto;
+  margin-left: 100px;
+}
+
+/* Animasi logo hover */
+.logo-naru a:hover {
+  transform: scale(1.3);
+}
+
+/* Navigasi */
+nav {
+  margin-right: 100px;
+}
+
+/* Tampilan navigasi */
+nav a {
+  background-color: #00be41;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+}
+
+/* Animasi nav a hover */
+nav a:hover {
+  /* color: gold; */
+  box-shadow: 0 8px 16px 0 #00be41;
+}
+
+/* Navigasi a */
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px;
+}
+
+/* Tampilan navigasi a jual */
+.jual {
+  background-color: none;
+  text-decoration: underline;
+}
+
+/* Bagian main 1 */
+.main1 {
+  margin-top: 200px;
+}
+
+/* tampilan logo naru halaman jual */
+.logo-naru-jual {
+  text-align: center;
+}
+
+/* Tampilan Form halaman jual */
+.form-container-jual {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #00be41;
+  border-radius: 10px;
+}
+
+.form-container-jual h2 {
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 96%;
+  padding: 10px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+}
+
+.btn-jual-sekarang {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00be41;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-jual-sekarang:hover {
+  background-color: #3e8e41;
+}
+
+/* #peta {
+  height: 400px;
+  margin-bottom: 10px;
+} */
+
+/* Bagian footer */
+footer {
+  flex-shrink: 0;
+}
+
+footer {
+  background-color: #00be41;
+  color: #fff;
+  padding: 40px 0;
+  margin: 0;
+  margin-top: 50px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 10px;
+  padding: 0 20px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: "avenir next";
+}
+
+.footer-column p {
+  margin: 0;
+  font-family: "proxima-nova", "verdana", "avenir next";
+  font-size: 14px;
+}
+
+.footer-column ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "proxima-nova", "verdana", "avenir next";
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  text-align: center;
+  font-family: "proxima-nova", "verdana", "avenir next";
+  font-size: 14px;
+  color: #fff;
+}

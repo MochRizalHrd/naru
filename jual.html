@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NARU - Jual</title>
+    <!-- Icon logo bar halaman jual -->
+    <link rel="icon" href="gambar/logonaru1.png" />
+    <!-- Link css halaman jual -->
+    <link rel="stylesheet" href="cssHalamanJual/style.css" />
+    <!-- Link javascript -->
+    <script src="javascript.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Bagian header halaman jual -->
+      <header>
+        <!-- Logo naru halaman jual -->
+        <div class="logo-naru">
+          <!-- <a href="#"><h1>NARU</h1></a> -->
+          <a href=""><img src="gambar/logonaru1.png" alt="" width="150px" /></a>
+        </div>
+        <!-- Navigasi -->
+        <div class="navigasi">
+          <nav>
+            <a href="home.html">Home</a>
+            <a href="kategori.html">Kategori</a>
+            <a class="jual" href="jual.html">Jual</a>
+            <a href="profil.html">Profil</a>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Bagian main halaman jual -->
+      <main class="main">
+        <!-- Main 1 -->
+        <div class="main1">
+          <!-- Logo naru jual -->
+          <div class="logo-naru-jual">
+            <img src="gambar/logonaru1.png" alt="" width="150px" />
+          </div>
+          <!-- Form halaman jual -->
+          <div class="form-container-jual">
+            <h2>Jual Sampah</h2>
+            <form action="" method="POST">
+              <div class="form-group">
+                <label for="alamat">Alamat</label>
+                <input type="text" id="alamat" name="alamat" required />
+              </div>
+              <!-- <div class="form-group">
+                <label for="peta">Pilih Lokasi di Peta</label>
+                <div id="peta"></div>
+                <button id="btn-lokasi" type="button">
+                  Klik di Sini untuk Menampilkan Lokasi di Google Maps
+                </button>
+              </div> -->
+              <div class="form-group">
+                <label for="tanggal">Tanggal Pengambilan</label>
+                <input type="date" id="tanggal" name="tanggal" required />
+              </div>
+              <div class="form-group">
+                <label for="jam">Jam Pengambilan</label>
+                <select id="jam" name="jam" required>
+                  <option value="">Pilih Jam</option>
+                  <option value="09:00">09:00</option>
+                  <option value="10:00">10:00</option>
+                  <option value="11:00">11:00</option>
+                  <option value="12:00">12:00</option>
+                  <option value="13:00">13:00</option>
+                  <option value="14:00">14:00</option>
+                  <option value="15:00">15:00</option>
+                  <option value="16:00">16:00</option>
+                  <option value="17:00">17:00</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="keterangan">Keterangan</label>
+                <textarea id="keterangan" name="keterangan" rows="5"></textarea>
+              </div>
+              <div class="form-group">
+                <a href="#" class="btn-jual-sekarang">Jual Sekarang</a>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Main 2 -->
+        <div class="main2"></div>
+      </main>
+
+      <!-- Bagian footer halaman jual -->
+      <footer>
+        <div class="footer-container">
+          <div class="footer-column">
+            <h3>Tentang Kami</h3>
+            <p>
+              Kami adalah sebuah bank sampah yang berfokus pada pengelolaan
+              sampah organik dan non-organik.
+            </p>
+          </div>
+          <div class="footer-column">
+            <h3>Lokasi Kami</h3>
+            <p>Kp. Cimanglid RT.028/RW.008</p>
+            <p>Desa Sukatani</p>
+            <p>Kecamatan Sukatani</p>
+            <p>Kabupaten Purwakarta</p>
+            <p>Jawa Barat, Indonesia</p>
+          </div>
+          <div class="footer-column">
+            <h3>Kontak Kami</h3>
+            <p>Email: kelompokremajasukatani21@gmail.com</p>
+            <p>Telp: +62 877 1862 2962</p>
+          </div>
+          <div class="footer-column">
+            <h3>Sosial Media</h3>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 NARU. All Rights Reserved</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
